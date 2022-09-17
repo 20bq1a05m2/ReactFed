@@ -1,9 +1,9 @@
- 
-import CricScore from './components/CricScore';
+import './App.css'
+import MyCart from './components/MyCart';
 function App() {
  return (
  <div>
- <CricScore />
+ <MyCart />
  </div>
  );
 }
