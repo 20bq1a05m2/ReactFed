@@ -1,11 +1,10 @@
- 
-import CricScore from './components/CricScore';
+import "./App.css";
+import ChangeColors from "./components/ChangeColors";
 function App() {
- return (
- <div>
- <CricScore />
- </div>
- );
+  return (
+    <div style={{ width: "90%", margin: "0 auto" }}>
+      <ChangeColors />
+    </div>
+  );
 }
-
 export default App;
